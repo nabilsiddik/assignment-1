@@ -254,3 +254,54 @@ section{
     text-align: center;
 }
 /** End Support section **/
+
+
+/** Start footer section **/
+#footer{
+    background: rgba(13, 19, 33, 0.03);
+    padding: 35px 0;
+}
+#footer .footer_container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer .footer_container .footer_copyright{
+    font-size: 20px;
+    font-weight: 600;
+}
+#footer .footer_container .footer_copyright a{
+    color: #0D1321;
+    text-decoration: underline;
+}
+#footer .footer_right ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+#footer .footer_right ul li{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer .footer_right ul li.facebook{
+    background: linear-gradient(180deg, #00B2FF -0.91%, #0071FF 104.25%, #006EFF 104.26%);
+}
+#footer .footer_right ul li.github{
+    background: #161614;
+}
+#footer .footer_right ul li.linkedin{
+    background: linear-gradient(135deg, #2489BE 14.64%, #0575B3 85.36%);
+}
+#footer .footer_right ul li a{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/** End footer section **/
