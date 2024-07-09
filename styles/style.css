@@ -159,3 +159,51 @@ section{
     border-radius: 10px;
 }
 /** End video section **/
+
+
+
+/** Start target section **/
+#target_section .target_container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#target_section .target_container .section_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+#target_section .target_container .section_content .box{
+    text-align: center;
+    width: 364px;
+    height: 299px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#target_section .target_container .section_content .box_1{
+    background: rgba(255, 76, 30, 0.05);
+}
+#target_section .target_container .section_content .box_2{
+    background: rgba(0, 76, 232, 0.05);
+}
+#target_section .target_container .section_content .box_3{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+#target_section .target_container .section_content .box img{
+    margin-bottom: 24px;
+}
+#target_section .target_container .section_content .box .box_title{
+    margin-bottom: 8px;
+}
+#target_section .target_container .section_content .box .box_desc{
+    margin-bottom: 24px;
+}
+#target_section .target_container .section_content .box a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+/** End video section **/
