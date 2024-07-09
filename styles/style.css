@@ -1,0 +1,76 @@
+/** Import Google Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** Reset **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+h1, h2, h3{
+    color: #0D1321;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+}
+
+/** Repetative Styles **/
+.primary_color{
+    color: #0D1321;
+}
+
+/** Hero Section Start **/
+#hero_section{
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 652px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero_section .hero_container{
+    width: 998px;
+}
+#hero_section .hero_container img{
+    margin-bottom: 32px;
+}
+#hero_section .hero_container .hero_title{
+    margin-bottom: 24px;
+}
+#hero_section .hero_container .hero_description{
+    margin-bottom: 32px;
+}
+#hero_section .hero_container .hero_btn{
+    background: #0D1321;
+    color: #fff;
+    width: 244px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/** Hero Section End **/
