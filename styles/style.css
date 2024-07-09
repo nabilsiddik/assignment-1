@@ -207,3 +207,50 @@ section{
 }
 
 /** End video section **/
+
+
+/** Start Support section **/
+#support_section .support_container{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/handshake.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 313px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#support_section .support_container form input[type="text"]{
+    width: 548px;
+    height: 57px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#support_section .support_container form input[type="submit"]{
+    width: 120px;
+    height: 57px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#support_section .support_container form input[type="text"]:focus, #support_section .support_container form input[type="submit"]:focus{
+ outline: none;
+}
+
+#support_section .support_container .title{
+    color: #fff;
+    margin-bottom: 16px;
+}
+#support_section .support_container .desc{
+    color: #fff;
+    margin-bottom: 24px;
+    max-width: 600px;
+    text-align: center;
+}
+/** End Support section **/
