@@ -7,6 +7,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-size: 16px;
     font-family: "Azeret Mono", monospace;
@@ -174,7 +177,6 @@ section{
     gap: 24px;
 }
 #target_section .target_container .section_content .box{
-    text-align: center;
     width: 364px;
     height: 299px;
     border-radius: 10px;
@@ -230,6 +232,9 @@ section{
     height: 57px;
     padding: 10px 20px;
     border-radius: 10px;
+}
+#support_section .support_container form input[type="text"]::placeholder{
+    word-spacing: 6px;
 }
 #support_section .support_container form input[type="submit"]{
     width: 120px;
